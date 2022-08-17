@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../components/SocialMedia";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  // let date = new Date();
+  // let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
