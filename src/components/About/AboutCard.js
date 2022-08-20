@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import { ImPointRight } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -10,6 +9,9 @@ function AboutCard() {
             Hi, I am <span className="purple">Greg Robertson </span>
             and I'm based out of <span className="purple"> Seattle, WA.</span>
             <br />
+            I've spent the last 4 years of living
+            Thailand, teaching english and have pivoted into
+            the tech world with a strong passion for learning.
             I'm a budding Software Engineer who loves to
             transform ideas into reality using code.
             Motivated developer with experience creating
@@ -29,7 +31,7 @@ function AboutCard() {
               New Tech
             </li>
             <li className="about-activity">
-              Gaming
+              Photography
             </li>
             <li className="about-activity">
               Sports
