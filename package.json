@@ -1,6 +1,7 @@
 {
   "name": "greg-portfolio",
   "version": "0.1.0",
+  "homepage": "https://futureNerdFrmThe80s.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -19,6 +20,8 @@
     "typewriter-effect": "^2.18.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
