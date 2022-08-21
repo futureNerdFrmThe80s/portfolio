@@ -28,7 +28,7 @@ function Home() {
                 in-demand technologies like Docker, Javascript,
                 Python & all the interesting libraries that go along
                 to create awesome user experiences. My experience lies
-                developing web applications using the latest
+                in developing web applications using the latest
                 front-end and back-end technologies.
               </p>
 
